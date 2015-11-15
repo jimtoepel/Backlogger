@@ -16,6 +16,9 @@
 		B1D45BEE1BF82F9F002E5B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D45BEC1BF82F9F002E5B43 /* LaunchScreen.storyboard */; };
 		B1D45BF91BF82F9F002E5B43 /* BackloggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D45BF81BF82F9F002E5B43 /* BackloggerTests.m */; };
 		B1D45C041BF82F9F002E5B43 /* BackloggerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D45C031BF82F9F002E5B43 /* BackloggerUITests.m */; };
+		B1D45C141BF82FC2002E5B43 /* IntentlySplash.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D45C131BF82FC2002E5B43 /* IntentlySplash.png */; };
+		B1D45C191BF82FCA002E5B43 /* FUNmediaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D45C161BF82FCA002E5B43 /* FUNmediaData.m */; };
+		B1D45C1A1BF82FCA002E5B43 /* FUNmediaList.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D45C181BF82FCA002E5B43 /* FUNmediaList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,11 @@
 		B1D45BFF1BF82F9F002E5B43 /* BackloggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackloggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D45C031BF82F9F002E5B43 /* BackloggerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackloggerUITests.m; sourceTree = "<group>"; };
 		B1D45C051BF82F9F002E5B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D45C131BF82FC2002E5B43 /* IntentlySplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IntentlySplash.png; sourceTree = "<group>"; };
+		B1D45C151BF82FCA002E5B43 /* FUNmediaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUNmediaData.h; sourceTree = "<group>"; };
+		B1D45C161BF82FCA002E5B43 /* FUNmediaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUNmediaData.m; sourceTree = "<group>"; };
+		B1D45C171BF82FCA002E5B43 /* FUNmediaList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUNmediaList.h; sourceTree = "<group>"; };
+		B1D45C181BF82FCA002E5B43 /* FUNmediaList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUNmediaList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,8 @@
 		B1D45BCF1BF82F9F002E5B43 = {
 			isa = PBXGroup;
 			children = (
+				B1D45C111BF82FA8002E5B43 /* Art */,
+				B1D45C121BF82FAF002E5B43 /* Model */,
 				B1D45BDA1BF82F9F002E5B43 /* Backlogger */,
 				B1D45BF71BF82F9F002E5B43 /* BackloggerTests */,
 				B1D45C021BF82F9F002E5B43 /* BackloggerUITests */,
@@ -143,6 +153,25 @@
 				B1D45C051BF82F9F002E5B43 /* Info.plist */,
 			);
 			path = BackloggerUITests;
+			sourceTree = "<group>";
+		};
+		B1D45C111BF82FA8002E5B43 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				B1D45C131BF82FC2002E5B43 /* IntentlySplash.png */,
+			);
+			name = Art;
+			sourceTree = "<group>";
+		};
+		B1D45C121BF82FAF002E5B43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1D45C151BF82FCA002E5B43 /* FUNmediaData.h */,
+				B1D45C161BF82FCA002E5B43 /* FUNmediaData.m */,
+				B1D45C171BF82FCA002E5B43 /* FUNmediaList.h */,
+				B1D45C181BF82FCA002E5B43 /* FUNmediaList.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +280,7 @@
 				B1D45BEE1BF82F9F002E5B43 /* LaunchScreen.storyboard in Resources */,
 				B1D45BEB1BF82F9F002E5B43 /* Assets.xcassets in Resources */,
 				B1D45BE91BF82F9F002E5B43 /* Main.storyboard in Resources */,
+				B1D45C141BF82FC2002E5B43 /* IntentlySplash.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +307,10 @@
 			files = (
 				B1D45BE01BF82F9F002E5B43 /* AppDelegate.m in Sources */,
 				B1D45BE31BF82F9F002E5B43 /* MasterViewController.m in Sources */,
+				B1D45C1A1BF82FCA002E5B43 /* FUNmediaList.m in Sources */,
 				B1D45BDD1BF82F9F002E5B43 /* main.m in Sources */,
 				B1D45BE61BF82F9F002E5B43 /* DetailViewController.m in Sources */,
+				B1D45C191BF82FCA002E5B43 /* FUNmediaData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
