@@ -11,20 +11,15 @@
 @implementation FUNmediaData
 
 @synthesize title;
-@synthesize format;
-@synthesize kind;
-@synthesize thumbImage;
 @synthesize rating;
 @synthesize playing;
 @synthesize hoursPlayed;
 @synthesize finished;
 
-- (id)initWithTitle:(NSString *)newTitle format:(NSString*)newFormat kind:(NSString*)newKind
+- (id)initWithTitle:(NSString *)newTitle
 {
     if ((self =[super init] )){
         self.title = newTitle;
-        self.format = newFormat;
-        self.kind = newKind;
 
     }
     return self;

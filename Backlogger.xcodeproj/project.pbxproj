@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B13264BB1BF9362C003F57A5 /* FUNmediaDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = B13264BA1BF9362C003F57A5 /* FUNmediaDoc.m */; };
 		B1D45BDD1BF82F9F002E5B43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D45BDC1BF82F9F002E5B43 /* main.m */; };
 		B1D45BE01BF82F9F002E5B43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D45BDF1BF82F9F002E5B43 /* AppDelegate.m */; };
 		B1D45BE31BF82F9F002E5B43 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D45BE21BF82F9F002E5B43 /* MasterViewController.m */; };
@@ -39,14 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B13264B91BF9362C003F57A5 /* FUNmediaDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUNmediaDoc.h; sourceTree = "<group>"; };
+		B13264BA1BF9362C003F57A5 /* FUNmediaDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUNmediaDoc.m; sourceTree = "<group>"; };
 		B1D45BD81BF82F9F002E5B43 /* Backlogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Backlogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D45BDC1BF82F9F002E5B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B1D45BDE1BF82F9F002E5B43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B1D45BDF1BF82F9F002E5B43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B1D45BE11BF82F9F002E5B43 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		B1D45BE21BF82F9F002E5B43 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		B1D45BE41BF82F9F002E5B43 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		B1D45BE51BF82F9F002E5B43 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B1D45BDE1BF82F9F002E5B43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Backlogger/AppDelegate.h; sourceTree = "<group>"; };
+		B1D45BDF1BF82F9F002E5B43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Backlogger/AppDelegate.m; sourceTree = "<group>"; };
+		B1D45BE11BF82F9F002E5B43 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = Backlogger/MasterViewController.h; sourceTree = "<group>"; };
+		B1D45BE21BF82F9F002E5B43 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = Backlogger/MasterViewController.m; sourceTree = "<group>"; };
+		B1D45BE41BF82F9F002E5B43 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = Backlogger/DetailViewController.h; sourceTree = "<group>"; };
+		B1D45BE51BF82F9F002E5B43 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = Backlogger/DetailViewController.m; sourceTree = "<group>"; };
 		B1D45BE81BF82F9F002E5B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1D45BEA1BF82F9F002E5B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1D45BED1BF82F9F002E5B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -89,12 +92,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B13264B81BF935C7003F57A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1D45BEC1BF82F9F002E5B43 /* LaunchScreen.storyboard */,
+				B1D45BDE1BF82F9F002E5B43 /* AppDelegate.h */,
+				B1D45BDF1BF82F9F002E5B43 /* AppDelegate.m */,
+				B1D45BE11BF82F9F002E5B43 /* MasterViewController.h */,
+				B1D45BE21BF82F9F002E5B43 /* MasterViewController.m */,
+				B1D45BE41BF82F9F002E5B43 /* DetailViewController.h */,
+				B1D45BE51BF82F9F002E5B43 /* DetailViewController.m */,
+				B1D45BE71BF82F9F002E5B43 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		B1D45BCF1BF82F9F002E5B43 = {
 			isa = PBXGroup;
 			children = (
 				B1D45C111BF82FA8002E5B43 /* Art */,
 				B1D45C121BF82FAF002E5B43 /* Model */,
-				B1D45BDA1BF82F9F002E5B43 /* Backlogger */,
+				B13264B81BF935C7003F57A5 /* View */,
+				B1D45BDB1BF82F9F002E5B43 /* Supporting Files */,
 				B1D45BF71BF82F9F002E5B43 /* BackloggerTests */,
 				B1D45C021BF82F9F002E5B43 /* BackloggerUITests */,
 				B1D45BD91BF82F9F002E5B43 /* Products */,
@@ -111,30 +130,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B1D45BDA1BF82F9F002E5B43 /* Backlogger */ = {
-			isa = PBXGroup;
-			children = (
-				B1D45BDE1BF82F9F002E5B43 /* AppDelegate.h */,
-				B1D45BDF1BF82F9F002E5B43 /* AppDelegate.m */,
-				B1D45BE11BF82F9F002E5B43 /* MasterViewController.h */,
-				B1D45BE21BF82F9F002E5B43 /* MasterViewController.m */,
-				B1D45BE41BF82F9F002E5B43 /* DetailViewController.h */,
-				B1D45BE51BF82F9F002E5B43 /* DetailViewController.m */,
-				B1D45BE71BF82F9F002E5B43 /* Main.storyboard */,
-				B1D45BEA1BF82F9F002E5B43 /* Assets.xcassets */,
-				B1D45BEC1BF82F9F002E5B43 /* LaunchScreen.storyboard */,
-				B1D45BEF1BF82F9F002E5B43 /* Info.plist */,
-				B1D45BDB1BF82F9F002E5B43 /* Supporting Files */,
-			);
-			path = Backlogger;
-			sourceTree = "<group>";
-		};
 		B1D45BDB1BF82F9F002E5B43 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B1D45BEA1BF82F9F002E5B43 /* Assets.xcassets */,
 				B1D45BDC1BF82F9F002E5B43 /* main.m */,
+				B1D45BEF1BF82F9F002E5B43 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			path = Backlogger;
 			sourceTree = "<group>";
 		};
 		B1D45BF71BF82F9F002E5B43 /* BackloggerTests */ = {
@@ -168,6 +172,8 @@
 			children = (
 				B1D45C151BF82FCA002E5B43 /* FUNmediaData.h */,
 				B1D45C161BF82FCA002E5B43 /* FUNmediaData.m */,
+				B13264B91BF9362C003F57A5 /* FUNmediaDoc.h */,
+				B13264BA1BF9362C003F57A5 /* FUNmediaDoc.m */,
 				B1D45C171BF82FCA002E5B43 /* FUNmediaList.h */,
 				B1D45C181BF82FCA002E5B43 /* FUNmediaList.m */,
 			);
@@ -311,6 +317,7 @@
 				B1D45BDD1BF82F9F002E5B43 /* main.m in Sources */,
 				B1D45BE61BF82F9F002E5B43 /* DetailViewController.m in Sources */,
 				B1D45C191BF82FCA002E5B43 /* FUNmediaData.m in Sources */,
+				B13264BB1BF9362C003F57A5 /* FUNmediaDoc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +359,7 @@
 				B1D45BE81BF82F9F002E5B43 /* Base */,
 			);
 			name = Main.storyboard;
+			path = Backlogger;
 			sourceTree = "<group>";
 		};
 		B1D45BEC1BF82F9F002E5B43 /* LaunchScreen.storyboard */ = {
@@ -360,6 +368,7 @@
 				B1D45BED1BF82F9F002E5B43 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = Backlogger;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -534,6 +543,7 @@
 				B1D45C0A1BF82F9F002E5B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1D45C0B1BF82F9F002E5B43 /* Build configuration list for PBXNativeTarget "BackloggerTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +552,7 @@
 				B1D45C0D1BF82F9F002E5B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1D45C0E1BF82F9F002E5B43 /* Build configuration list for PBXNativeTarget "BackloggerUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +561,7 @@
 				B1D45C101BF82F9F002E5B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
