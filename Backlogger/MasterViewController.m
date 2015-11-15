@@ -8,13 +8,20 @@
 
 #import "MasterViewController.h"
 #import "DetailViewController.h"
+#import "FUNmediaDoc.h"
+#import "FUNmediaData.h"
+#import "FUNmediaList.h"
 
 @interface MasterViewController ()
 
 @property NSMutableArray *objects;
+
 @end
 
 @implementation MasterViewController
+
+@synthesize backlog = _backlog;
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,6 +31,7 @@
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    self.title = @"Backlog";
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -65,14 +73,13 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.objects.count;
+    return _backlog.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-
-    NSDate *object = self.objects[indexPath.row];
-    cell.textLabel.text = [object description];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyBasicCell"];
+    FUNmediaDoc *media = [self.backlog objectAtIndex:indexPath.row];
+    cell.textLabel.text = media.data.title;
     return cell;
 }
 

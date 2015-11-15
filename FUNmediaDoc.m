@@ -11,18 +11,16 @@
 
 @implementation FUNmediaDoc
 
-@synthesize data;
-@synthesize format;
-@synthesize kind;
-@synthesize thumbImage;
+@synthesize data = _data;
+@synthesize format = _format;
+@synthesize kind = _kind;
 
-- (id)initWithTitle:(NSString *)title format:(NSString *)newFormat kind:(NSString *)newKind thumbImage:(UIImage *)newThumbImage
+- (id)initWithTitle:(NSString *)title format:(NSString *)format kind:(NSString *)kind
 {
     if ((self = [super init])) {
         self.data = [[FUNmediaData alloc] initWithTitle:title];
-        self.format = newFormat;
-        self.kind = newKind;
-        self.thumbImage = newThumbImage;
+        self.format = format;
+        self.kind = kind;
     }
     return self;
 }

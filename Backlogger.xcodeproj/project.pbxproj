@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B13264BB1BF9362C003F57A5 /* FUNmediaDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = B13264BA1BF9362C003F57A5 /* FUNmediaDoc.m */; };
+		B13264C31BF93FD6003F57A5 /* unchartedCollection_PS4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B13264BC1BF93FD6003F57A5 /* unchartedCollection_PS4.jpg */; };
+		B13264C41BF93FD6003F57A5 /* theGlassBeadGame_kindle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B13264BD1BF93FD6003F57A5 /* theGlassBeadGame_kindle.jpg */; };
+		B13264C51BF93FD6003F57A5 /* starWarsBattlefront_PS4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B13264BE1BF93FD6003F57A5 /* starWarsBattlefront_PS4.jpg */; };
+		B13264C61BF93FD6003F57A5 /* metalGearSolid5_PS4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B13264BF1BF93FD6003F57A5 /* metalGearSolid5_PS4.jpg */; };
+		B13264C71BF93FD6003F57A5 /* fallout4_PS4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B13264C01BF93FD6003F57A5 /* fallout4_PS4.jpg */; };
+		B13264C81BF93FD6003F57A5 /* disneyInfinty030_PS4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B13264C11BF93FD6003F57A5 /* disneyInfinty030_PS4.jpg */; };
+		B13264C91BF93FD6003F57A5 /* artOfGameDesign_paperback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B13264C21BF93FD6003F57A5 /* artOfGameDesign_paperback.jpg */; };
 		B1D45BDD1BF82F9F002E5B43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D45BDC1BF82F9F002E5B43 /* main.m */; };
 		B1D45BE01BF82F9F002E5B43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D45BDF1BF82F9F002E5B43 /* AppDelegate.m */; };
 		B1D45BE31BF82F9F002E5B43 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D45BE21BF82F9F002E5B43 /* MasterViewController.m */; };
@@ -42,6 +49,13 @@
 /* Begin PBXFileReference section */
 		B13264B91BF9362C003F57A5 /* FUNmediaDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUNmediaDoc.h; sourceTree = "<group>"; };
 		B13264BA1BF9362C003F57A5 /* FUNmediaDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUNmediaDoc.m; sourceTree = "<group>"; };
+		B13264BC1BF93FD6003F57A5 /* unchartedCollection_PS4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unchartedCollection_PS4.jpg; sourceTree = "<group>"; };
+		B13264BD1BF93FD6003F57A5 /* theGlassBeadGame_kindle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = theGlassBeadGame_kindle.jpg; sourceTree = "<group>"; };
+		B13264BE1BF93FD6003F57A5 /* starWarsBattlefront_PS4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starWarsBattlefront_PS4.jpg; sourceTree = "<group>"; };
+		B13264BF1BF93FD6003F57A5 /* metalGearSolid5_PS4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metalGearSolid5_PS4.jpg; sourceTree = "<group>"; };
+		B13264C01BF93FD6003F57A5 /* fallout4_PS4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fallout4_PS4.jpg; sourceTree = "<group>"; };
+		B13264C11BF93FD6003F57A5 /* disneyInfinty030_PS4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disneyInfinty030_PS4.jpg; sourceTree = "<group>"; };
+		B13264C21BF93FD6003F57A5 /* artOfGameDesign_paperback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = artOfGameDesign_paperback.jpg; sourceTree = "<group>"; };
 		B1D45BD81BF82F9F002E5B43 /* Backlogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Backlogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D45BDC1BF82F9F002E5B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B1D45BDE1BF82F9F002E5B43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Backlogger/AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +121,20 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		B13264CA1BF93FDD003F57A5 /* Thumbs */ = {
+			isa = PBXGroup;
+			children = (
+				B13264BC1BF93FD6003F57A5 /* unchartedCollection_PS4.jpg */,
+				B13264BD1BF93FD6003F57A5 /* theGlassBeadGame_kindle.jpg */,
+				B13264BE1BF93FD6003F57A5 /* starWarsBattlefront_PS4.jpg */,
+				B13264BF1BF93FD6003F57A5 /* metalGearSolid5_PS4.jpg */,
+				B13264C01BF93FD6003F57A5 /* fallout4_PS4.jpg */,
+				B13264C11BF93FD6003F57A5 /* disneyInfinty030_PS4.jpg */,
+				B13264C21BF93FD6003F57A5 /* artOfGameDesign_paperback.jpg */,
+			);
+			name = Thumbs;
+			sourceTree = "<group>";
+		};
 		B1D45BCF1BF82F9F002E5B43 = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +190,7 @@
 		B1D45C111BF82FA8002E5B43 /* Art */ = {
 			isa = PBXGroup;
 			children = (
+				B13264CA1BF93FDD003F57A5 /* Thumbs */,
 				B1D45C131BF82FC2002E5B43 /* IntentlySplash.png */,
 			);
 			name = Art;
@@ -283,10 +312,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13264C31BF93FD6003F57A5 /* unchartedCollection_PS4.jpg in Resources */,
 				B1D45BEE1BF82F9F002E5B43 /* LaunchScreen.storyboard in Resources */,
 				B1D45BEB1BF82F9F002E5B43 /* Assets.xcassets in Resources */,
 				B1D45BE91BF82F9F002E5B43 /* Main.storyboard in Resources */,
+				B13264C91BF93FD6003F57A5 /* artOfGameDesign_paperback.jpg in Resources */,
+				B13264C51BF93FD6003F57A5 /* starWarsBattlefront_PS4.jpg in Resources */,
 				B1D45C141BF82FC2002E5B43 /* IntentlySplash.png in Resources */,
+				B13264C71BF93FD6003F57A5 /* fallout4_PS4.jpg in Resources */,
+				B13264C61BF93FD6003F57A5 /* metalGearSolid5_PS4.jpg in Resources */,
+				B13264C41BF93FD6003F57A5 /* theGlassBeadGame_kindle.jpg in Resources */,
+				B13264C81BF93FD6003F57A5 /* disneyInfinty030_PS4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,8 @@
 
 @interface MasterViewController : UITableViewController
 
+@property (strong) NSMutableArray *backlog;
+
 @property (strong, nonatomic) DetailViewController *detailViewController;
 
 

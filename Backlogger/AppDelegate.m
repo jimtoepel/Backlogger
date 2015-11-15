@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "DetailViewController.h"
+#import "MasterViewController.h"
+#import "FUNmediaDoc.h"
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -17,6 +19,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    FUNmediaDoc *media1 = [[FUNmediaDoc alloc] initWithTitle:@"Metal Gear Solid 5" format:@"Ps4" kind:@"Game"];
+    FUNmediaDoc *media2 = [[FUNmediaDoc alloc] initWithTitle:@"Uncharted Collection" format:@"Ps4" kind:@"Game"];
+    FUNmediaDoc *media3 = [[FUNmediaDoc alloc] initWithTitle:@"The Glass Bead Game" format:@"Kindle" kind:@"Book"];
+    
+    NSMutableArray *backlog = [NSMutableArray arrayWithObjects:media1, media2, media3, nil];
+    
+    UINavigationController *navController = (UINavigationController *) self.window.rootViewController;
+    MasterViewController *masterController = [navController.viewControllers objectAtIndex:0];
+    masterController.backlog = backlog;
+    
     // Override point for customization after application launch.
     UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
